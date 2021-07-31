@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int i;
+	char *wordsOfSong1 = " bottles of beer on the wall, ";
+        char *wordsOfSong2 = "bottles of beer.\nTake one down and pass it around, ";
+        char *wordsOfSong3 = "bottles of beer on the wall.\n";
+
+	i = 99;
+	while (i > 0)
+	{
+		printf("%d%s%d%s%d%s\n", i, wordsOfSong1, i, wordsOfSong2, i - 1, wordsOfSong3);
+		i--;
+	}
+
+	printf("No more%s\n", wordsOfSong);
+
+	return 0;
+
+}
