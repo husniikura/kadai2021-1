@@ -3,7 +3,7 @@ for(i= 99;0 <i;i--){
    if(i==1){
        console.log("1 bottle of beer on the wal1, 1 bottle of beer.");    
    }else{
-       console. log(i+"bottles of beer on the wall, "+(i)+" bottles of beer.    "); 
+       console. log(+(i)+" bottles of beer on the wall, "+(i)+" bottles of beer.    "); 
        console. log("Take one down and pass it around, "+(i-1)+" bottles of beer on the wall.");
        console.log("")   
     }
