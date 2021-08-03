@@ -1,5 +1,5 @@
 let i;
-for(i= 99;0 <i;i--){
+for(i= 99;1 <i;i--){
    if(i==1){
        console.log("1 bottle of beer on the wal1, 1 bottle of beer.");    
    }else{
